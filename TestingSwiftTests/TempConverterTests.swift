@@ -40,7 +40,7 @@ class TempConverterTests: XCTestCase {
         let celsius = sut.convertToCelsius(fahrenheit: input)
         
         // then
-        XCTAssertEqual(celsius, 0)
+        XCTAssertEqual(celsius, 0, accuracy: 0.000001)
         
         
     }
@@ -53,7 +53,7 @@ class TempConverterTests: XCTestCase {
         let celsius = sut.convertToCelsius(fahrenheit: input)
         
         // then
-        XCTAssertEqual(celsius, 100)
+        XCTAssertEqual(celsius, 100, accuracy: 0.000001)
     }
 
 }
