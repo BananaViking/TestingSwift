@@ -10,13 +10,14 @@ import XCTest
 @testable import TestingSwift
 
 class TempConverterTests: XCTestCase {
+    var sut: Converter!
 
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        sut = Converter()
     }
 
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        sut = nil
     }
 
     func testExample() {
@@ -33,7 +34,6 @@ class TempConverterTests: XCTestCase {
     
     func test32FahrenheitIsZeroCelsius() {
         // given
-        let sut = Converter()
         let input = 32.0
         
         // when
@@ -47,7 +47,6 @@ class TempConverterTests: XCTestCase {
     
     func test212FahrenheitIs100Celsius() {
         // given
-        let sut = Converter()
         let input = 212.0
         
         // when
