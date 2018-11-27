@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import TestingSwift
 
 class TempConverterTests: XCTestCase {
 
@@ -28,6 +29,32 @@ class TempConverterTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func test32FahrenheitIsZeroCelsius() {
+        // given
+        let sut = Converter()
+        let input = 32.0
+        
+        // when
+        let celsius = sut.convertToCelsius(fahrenheit: input)
+        
+        // then
+        XCTAssertEqual(celsius, 0)
+        
+        
+    }
+    
+    func test212FahrenheitIs100Celsius() {
+        // given
+        let sut = Converter()
+        let input = 212.0
+        
+        // when
+        let celsius = sut.convertToCelsius(fahrenheit: input)
+        
+        // then
+        XCTAssertEqual(celsius, 100)
     }
 
 }
