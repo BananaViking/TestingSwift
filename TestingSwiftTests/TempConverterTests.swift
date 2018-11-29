@@ -55,5 +55,4 @@ class TempConverterTests: XCTestCase {
         // then
         XCTAssertEqual(celsius, 100, accuracy: 0.000001)
     }
-
 }
