@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import TestingSwift
 
 class AsynchronousTests: XCTestCase {
 
@@ -29,5 +30,18 @@ class AsynchronousTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
+    
+    func testPrimesUpTo100ShouldBe25() {
+        // given
+        let maximumCount = 100
+        let expectation = XCTestExpectation(description: "Calculate primes up to \(maximumCount)")
+        
+        // when
+        PrimeCalculator.calculate(upTo: maximumCount) {
+            // then
+            XCTAssertEqual($0.count, 25)
+            expectation.fulfill()
+        }
+        wait(for: [expectation], timeout: 10)
+    }
 }
