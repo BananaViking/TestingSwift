@@ -31,6 +31,12 @@ class TestingSwiftTests: XCTestCase {
         }
     }
     
+    func testPrimePerformance() {
+        measure {
+            _ = PrimeCalculatorSync.calculate(upTo: 1_000_000)
+        }
+    }
+    
     func testHaterStartsNicely() {
         let hater = Hater()
         
