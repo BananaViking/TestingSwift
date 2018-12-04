@@ -112,16 +112,16 @@
 			isa = PBXGroup;
 			children = (
 				058D964421AD9B2B00D941AD /* AppDelegate.swift */,
-				058D966421AD9BC300D941AD /* Hater.swift */,
-				058D964621AD9B2B00D941AD /* ViewController.swift */,
-				058D966621ADD51400D941AD /* TempConverter.swift */,
-				05E529B421B1E54600B36267 /* PrimeCalculator.swift */,
-				050D4A1121B6D1500098B199 /* House.swift */,
-				058D964821AD9B2B00D941AD /* Main.storyboard */,
-				05E529B621B1F6A300B36267 /* PrimeCalculatorSync.swift */,
 				058D964B21AD9B2C00D941AD /* Assets.xcassets */,
-				058D964D21AD9B2C00D941AD /* LaunchScreen.storyboard */,
+				058D966421AD9BC300D941AD /* Hater.swift */,
+				050D4A1121B6D1500098B199 /* House.swift */,
 				058D965021AD9B2C00D941AD /* Info.plist */,
+				058D964D21AD9B2C00D941AD /* LaunchScreen.storyboard */,
+				058D964821AD9B2B00D941AD /* Main.storyboard */,
+				05E529B421B1E54600B36267 /* PrimeCalculator.swift */,
+				05E529B621B1F6A300B36267 /* PrimeCalculatorSync.swift */,
+				058D966621ADD51400D941AD /* TempConverter.swift */,
+				058D964621AD9B2B00D941AD /* ViewController.swift */,
 			);
 			path = TestingSwift;
 			sourceTree = "<group>";
