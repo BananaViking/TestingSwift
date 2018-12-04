@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050D4A1221B6D1500098B199 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050D4A1121B6D1500098B199 /* House.swift */; };
 		058D964521AD9B2B00D941AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D964421AD9B2B00D941AD /* AppDelegate.swift */; };
 		058D964721AD9B2B00D941AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D964621AD9B2B00D941AD /* ViewController.swift */; };
 		058D964A21AD9B2B00D941AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058D964821AD9B2B00D941AD /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050D4A1121B6D1500098B199 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 		058D964121AD9B2B00D941AD /* TestingSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		058D964421AD9B2B00D941AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		058D964621AD9B2B00D941AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				058D964621AD9B2B00D941AD /* ViewController.swift */,
 				058D966621ADD51400D941AD /* TempConverter.swift */,
 				05E529B421B1E54600B36267 /* PrimeCalculator.swift */,
+				050D4A1121B6D1500098B199 /* House.swift */,
 				058D964821AD9B2B00D941AD /* Main.storyboard */,
 				05E529B621B1F6A300B36267 /* PrimeCalculatorSync.swift */,
 				058D964B21AD9B2C00D941AD /* Assets.xcassets */,
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050D4A1221B6D1500098B199 /* House.swift in Sources */,
 				058D966721ADD51400D941AD /* TempConverter.swift in Sources */,
 				058D964721AD9B2B00D941AD /* ViewController.swift in Sources */,
 				05E529B721B1F6A300B36267 /* PrimeCalculatorSync.swift in Sources */,
